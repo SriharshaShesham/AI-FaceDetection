@@ -1,6 +1,6 @@
 
 const video = document.getElementById('videoInput')
-
+ 
 
 Promise.all([
     faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
